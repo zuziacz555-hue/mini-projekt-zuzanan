@@ -15,7 +15,7 @@ Wykonałam ten projekt samodzielnie w ramach mini projektu ćwiczeniowego z Git 
 
 ## Kontakt
 
-Repozytorium: https://github.com/Zuzanka/git-mini-projekt-zuzanna-kania
+Repozytorium: https://github.com/zuziacz555-hue/mini-projekt-zuzanan
 
 ---
 

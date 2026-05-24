@@ -128,4 +128,4 @@ Projekt dotyczy ćwiczenia historii zmian, pracy na branchach i publikacji repoz
 
 ## Link do repozytorium
 
-https://github.com/Zuzanka/git-mini-projekt-zuzanna-kania
+https://github.com/zuziacz555-hue/mini-projekt-zuzanan
