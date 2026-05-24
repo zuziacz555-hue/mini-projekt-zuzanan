@@ -1,9 +1,9 @@
-# Moja karta pracy Git
+# Moja karta pracy Git &mdash; Zuzanna Czupryńska, 4TP, 2025/2026
 
 ## Autor
 
-Imię i nazwisko: Zuzanna Kania  
-Klasa / grupa: 2B
+Imię i nazwisko: Zuzanna Czupryńska  
+Klasa / grupa: 4TP
 
 ---
 

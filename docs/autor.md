@@ -4,8 +4,8 @@
 
 | Pole | Wartość |
 |------|---------|
-| Imię i nazwisko | Zuzanna Kania |
-| Klasa / grupa | 2B |
+| Imię i nazwisko | Zuzanna Czupryńska |
+| Klasa / grupa | 4TP |
 | Rok szkolny | 2025/2026 |
 | Przedmiot | Informatyka |
 

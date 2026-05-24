@@ -5,7 +5,7 @@
 | Pole | Wartość |
 |------|---------|
 | Data testu | 24.05.2026 |
-| Tester | Zuzanna Kania |
+| Tester | Zuzanna Czupryńska |
 | Przeglądarka | Google Chrome |
 | Plik testowany | index.html |
 
