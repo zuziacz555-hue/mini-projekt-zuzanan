@@ -48,3 +48,15 @@
 ## Wynik testu
 
 **Wszystkie testy przeszły pomyślnie.** Strona działa poprawnie w przeglądarce Chrome. Nie wykryto błędów JavaScript ani problemów z wyświetlaniem.
+
+---
+
+## Końcowa checklista oddania pracy
+
+- [x] Repozytorium jest **publiczne**
+- [x] README jest własny i uzupełniony (tytuł, autor, cel, struktura, branche, komendy, historia, link)
+- [x] Na GitHub widoczny jest `main` oraz trzy branche: `feature/opis-readme`, `feature/komendy-git`, `feature/interfejs-zadania`
+- [x] W historii jest **co najmniej 10 commitów** z czytelnymi komunikatami
+- [x] Zmiany z branchy są scalone do `main`
+- [x] Strona `index.html` otwiera się poprawnie w przeglądarce
+- [ ] W Classroom przesłano link HTTPS do repozytorium
