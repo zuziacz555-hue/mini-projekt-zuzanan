@@ -57,3 +57,21 @@ Do Classroom należy przesłać link HTTPS (nie SSH!):
 ```
 https://github.com/USER/git-mini-projekt-zuzanna-kania
 ```
+
+---
+
+## Weryfikacja konfiguracji zdalnego repozytorium
+
+```bash
+git remote -v           # sprawdź adres origin
+git branch -a           # sprawdź lokalne i zdalne branche
+git log --oneline -5    # ostatnie 5 commitów
+```
+
+## Checklista przed oddaniem
+
+- [ ] Repozytorium jest **publiczne** (nie prywatne)
+- [ ] Link zaczyna się od `https://github.com/` (nie `git@`)
+- [ ] Na GitHub widoczne są: `main` i trzy branche robocze
+- [ ] Historia pokazuje ≥ 10 commitów
+- [ ] Strona `index.html` otwiera się poprawnie w przeglądarce

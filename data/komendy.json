@@ -71,6 +71,24 @@
       "kategoria": "historia",
       "komenda": "git log --oneline --graph --all",
       "opis": "Wyświetla kompaktową historię commitów w formie grafu"
+    },
+    {
+      "id": 13,
+      "kategoria": "status",
+      "komenda": "git diff",
+      "opis": "Pokazuje różnice między roboczym katalogiem a staging area"
+    },
+    {
+      "id": 14,
+      "kategoria": "staging",
+      "komenda": "git stash",
+      "opis": "Tymczasowo odkłada niezacommitowane zmiany na stos"
+    },
+    {
+      "id": 15,
+      "kategoria": "remote",
+      "komenda": "git clone URL",
+      "opis": "Klonuje zdalne repozytorium GitHub na dysk lokalny"
     }
   ]
 }
