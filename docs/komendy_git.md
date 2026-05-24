@@ -59,7 +59,11 @@ git add .                              # 4. dodaj zmiany
 git commit -m "Opis zmiany"            # 5. zapisz commit
 # ... powtórz kroki 3-5 dla kolejnych zmian ...
 git push -u origin feature/nazwa       # 6. wypchnij na GitHub
-git switch main                        # 7. wróć na main
-git merge feature/nazwa                # 8. scal do main
-git push origin main                   # 9. wypchnij main
-```
+## Typowe błędy i ich rozwiązania
+
+| Błąd | Przyczyna | Rozwiązanie |
+|------|-----------|------------|
+| `nothing to commit` | Brak zmian w plikach | Edytuj plik, potem `git add` |
+| `not a git repository` | Brak katalogu `.git` | Uruchom `git init` |
+| `rejected (non-fast-forward)` | Zdalne repo ma nowe commity | Najpierw `git pull`, potem `git push` |
+| `merge conflict` | Dwa branche zmieniły ten sam fragment | Ręczna edycja pliku, `git add`, `git commit` |
