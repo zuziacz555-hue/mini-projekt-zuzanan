@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moja karta pracy Git – Zuzanna Kania</title>
+  <meta name="description" content="Mini projekt ćwiczeniowy z Git i GitHub – Zuzanna Kania, 2B">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_dodatkowy.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Ćwiczenie Git + GitHub</p>
+    <h1>Moja karta pracy Git</h1>
+    <p>Projekt dokumentujący pracę z lokalnym repozytorium, commitami, branchami, merge oraz zdalnym repozytorium GitHub.</p>
+    <p><strong>Autor:</strong> Zuzanna Kania &nbsp;|&nbsp; <strong>Klasa:</strong> 2B</p>
+  </header>
+
+  <main class="container">
+
+    <!-- SEKCJA 1: Cel projektu -->
+    <section class="card">
+      <h2>Cel projektu</h2>
+      <p>Projekt powstał w ramach mini projektu ćwiczeniowego z informatyki. Jego celem jest opanowanie podstaw pracy z systemem kontroli wersji Git oraz platformą GitHub: tworzenie commitów, praca na branchach, scalanie zmian i publikowanie kodu publicznie.</p>
+    </section>
+
+    <!-- SEKCJA 2: Checklist zadań -->
+    <section class="card">
+      <h2>Checklist wymagań</h2>
+      <label><input type="checkbox" class="task"> Utworzono publiczne repozytorium GitHub</label>
+      <label><input type="checkbox" class="task"> Dodano własny README z pełnym opisem</label>
+      <label><input type="checkbox" class="task"> Wykonano co najmniej 10 commitów</label>
+      <label><input type="checkbox" class="task"> Utworzono 3 branche: feature/opis-readme, feature/komendy-git, feature/interfejs-zadania</label>
+      <label><input type="checkbox" class="task"> Scalono branche do main</label>
+      <label><input type="checkbox" class="task"> Wypchnięto wszystkie branche na GitHub</label>
+      <label><input type="checkbox" class="task"> Przesłano link HTTPS w Classroom</label>
+      <p id="progress">Zaznaczone zadania: 0</p>
+    </section>
+
+    <!-- SEKCJA 3: Branche -->
+    <section class="card">
+      <h2>Branche robocze</h2>
+      <ul>
+        <li><code>feature/opis-readme</code> – uzupełnienie README i dokumentacja autora (autor.md, zasady_pracy.md)</li>
+        <li><code>feature/komendy-git</code> – lista komend Git, opis SSH i GitHub, dane komendy.json</li>
+        <li><code>feature/interfejs-zadania</code> – rozbudowa strony o sekcję commitów, style dodatkowe i test ręczny</li>
+      </ul>
+    </section>
+
+    <!-- SEKCJA 4: Historia commitów (wypełniania przez script_dodatkowy.js) -->
+    <section class="card commits-section">
+      <h2>Historia commitów</h2>
+      <div id="commit-section"></div>
+    </section>
+
+    <!-- SEKCJA 5: Najważniejsze komendy -->
+    <section class="card">
+      <h2>Kluczowe komendy Git</h2>
+      <ul>
+        <li><code>git init</code> – inicjalizacja repozytorium</li>
+        <li><code>git add .</code> – dodanie zmian do staging</li>
+        <li><code>git commit -m "..."</code> – zapis commita</li>
+        <li><code>git switch -c feature/nazwa</code> – nowy branch</li>
+        <li><code>git merge feature/nazwa</code> – scalenie brancha</li>
+        <li><code>git push origin --all</code> – wypchnięcie wszystkich branchy</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Mini projekt Git i GitHub &mdash; Zuzanna Kania, 2B, 2025/2026</p>
+    <p><a href="https://github.com/Zuzanka/git-mini-projekt-zuzanna-kania" target="_blank">github.com/Zuzanka/git-mini-projekt-zuzanna-kania</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="script_dodatkowy.js"></script>
+</body>
+</html>

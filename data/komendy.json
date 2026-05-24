@@ -1,0 +1,76 @@
+{
+  "komendy": [
+    {
+      "id": 1,
+      "kategoria": "inicjalizacja",
+      "komenda": "git init",
+      "opis": "Inicjalizuje nowe lokalne repozytorium Git"
+    },
+    {
+      "id": 2,
+      "kategoria": "inicjalizacja",
+      "komenda": "git branch -M main",
+      "opis": "Zmienia nazwę aktualnej gałęzi na main"
+    },
+    {
+      "id": 3,
+      "kategoria": "status",
+      "komenda": "git status",
+      "opis": "Pokazuje stan plików w repozytorium"
+    },
+    {
+      "id": 4,
+      "kategoria": "staging",
+      "komenda": "git add .",
+      "opis": "Dodaje wszystkie zmienione pliki do staging area"
+    },
+    {
+      "id": 5,
+      "kategoria": "commit",
+      "komenda": "git commit -m \"komunikat\"",
+      "opis": "Tworzy commit z podanym komunikatem"
+    },
+    {
+      "id": 6,
+      "kategoria": "branch",
+      "komenda": "git switch -c feature/nazwa",
+      "opis": "Tworzy nowy branch i od razu na niego przechodzi"
+    },
+    {
+      "id": 7,
+      "kategoria": "branch",
+      "komenda": "git switch main",
+      "opis": "Przechodzi na branch main"
+    },
+    {
+      "id": 8,
+      "kategoria": "merge",
+      "komenda": "git merge feature/nazwa",
+      "opis": "Scala wskazany branch do aktualnego"
+    },
+    {
+      "id": 9,
+      "kategoria": "remote",
+      "komenda": "git remote add origin URL",
+      "opis": "Dodaje zdalne repozytorium GitHub jako origin"
+    },
+    {
+      "id": 10,
+      "kategoria": "remote",
+      "komenda": "git push -u origin main",
+      "opis": "Wypycha lokalny main na GitHub i ustawia śledzenie"
+    },
+    {
+      "id": 11,
+      "kategoria": "remote",
+      "komenda": "git push origin --all",
+      "opis": "Wypycha wszystkie lokalne branche na GitHub"
+    },
+    {
+      "id": 12,
+      "kategoria": "historia",
+      "komenda": "git log --oneline --graph --all",
+      "opis": "Wyświetla kompaktową historię commitów w formie grafu"
+    }
+  ]
+}

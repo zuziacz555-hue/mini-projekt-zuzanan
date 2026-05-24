@@ -1,0 +1,7 @@
+[
+  { "komenda": "git init", "opis": "utworzenie lokalnego repozytorium" },
+  { "komenda": "git add .", "opis": "dodanie zmian do staging area" },
+  { "komenda": "git commit -m", "opis": "zapisanie zmian w historii" },
+  { "komenda": "git switch -c", "opis": "utworzenie nowego brancha" },
+  { "komenda": "git push -u origin", "opis": "pierwsze wysłanie brancha na GitHub" }
+]

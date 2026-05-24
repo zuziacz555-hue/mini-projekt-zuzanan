@@ -1,0 +1,53 @@
+{
+  "projekt": "Moja karta pracy Git",
+  "zadania": [
+    {
+      "id": 1,
+      "tresc": "Utwórz publiczne repozytorium GitHub",
+      "branch": "main",
+      "wykonane": true
+    },
+    {
+      "id": 2,
+      "tresc": "Dodaj własny README z pełnym opisem",
+      "branch": "feature/opis-readme",
+      "wykonane": true
+    },
+    {
+      "id": 3,
+      "tresc": "Wykonaj co najmniej 10 commitów",
+      "branch": "wszystkie",
+      "wykonane": true
+    },
+    {
+      "id": 4,
+      "tresc": "Utwórz 3 branche robocze",
+      "branch": "main",
+      "wykonane": true
+    },
+    {
+      "id": 5,
+      "tresc": "Dodaj dokumentację komend Git",
+      "branch": "feature/komendy-git",
+      "wykonane": true
+    },
+    {
+      "id": 6,
+      "tresc": "Rozbuduj stronę i wykonaj test ręczny",
+      "branch": "feature/interfejs-zadania",
+      "wykonane": true
+    },
+    {
+      "id": 7,
+      "tresc": "Scal branche do main i wypchnij na GitHub",
+      "branch": "main",
+      "wykonane": true
+    },
+    {
+      "id": 8,
+      "tresc": "Prześlij link do repozytorium w Classroom",
+      "branch": "main",
+      "wykonane": false
+    }
+  ]
+}

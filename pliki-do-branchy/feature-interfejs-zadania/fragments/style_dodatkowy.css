@@ -1,0 +1,8 @@
+/* Dopisz do pliku style.css na branchu feature/interfejs-zadania. */
+.highlight {
+  border-left: 6px solid #1f4e79;
+}
+
+.card h2 {
+  margin-top: 0;
+}

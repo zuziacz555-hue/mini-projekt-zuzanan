@@ -1,0 +1,9 @@
+# Autor projektu
+
+Imię i nazwisko: ........................................
+Klasa / grupa: ..........................................
+Data wykonania: .........................................
+
+## Mój opis pracy
+
+Napisz 5-6 zdań o tym, co wykonałeś/wykonałaś w repozytorium i które elementy Git były najtrudniejsze.

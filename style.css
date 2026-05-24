@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1d2733;
+  background: #f4f6f8;
+  line-height: 1.5;
+}
+
+.hero {
+  padding: 36px 20px;
+  text-align: center;
+  background: #1f4e79;
+  color: white;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 24px auto;
+  display: grid;
+  gap: 16px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #d7dee8;
+  border-radius: 12px;
+  background: white;
+}
+
+.card label {
+  display: block;
+  margin: 8px 0;
+}
+
+code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #eef3f7;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #5a6673;
+}
