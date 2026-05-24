@@ -108,6 +108,24 @@ W repozytorium znajduje się co najmniej 10 commitów, które pokazują kolejne 
 
 ---
 
+## Dodatkowy opis projektu
+
+### Czego dotyczy projekt?
+
+Projekt dotyczy ćwiczenia historii zmian, pracy na branchach i publikacji repozytorium na GitHub. Poprzez samodzielne wykonanie wszystkich etapów (init → commit → branch → merge → push) uczę się realnego przepływu pracy z Git.
+
+### Moje najważniejsze komendy
+
+- `git init` – inicjalizuje repozytorium lokalnie
+- `git add .` – dodaje wszystkie zmiany do staging area
+- `git commit -m "..."` – zapisuje zmianę w historii
+- `git switch -c feature/nazwa` – tworzy nowy branch i przełącza się na niego
+- `git merge feature/nazwa` – scala branch do main
+- `git push origin --all` – wypycha wszystkie branche na GitHub
+- `git log --oneline --graph --all` – pokazuje graficzną historię commitów
+
+---
+
 ## Link do repozytorium
 
 https://github.com/Zuzanka/git-mini-projekt-zuzanna-kania
