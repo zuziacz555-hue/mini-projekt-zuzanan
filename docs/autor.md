@@ -16,3 +16,16 @@ Wykonałam ten projekt samodzielnie w ramach mini projektu ćwiczeniowego z Git 
 ## Kontakt
 
 Repozytorium: https://github.com/Zuzanka/git-mini-projekt-zuzanna-kania
+
+---
+
+## Dlaczego Git?
+
+Uczę się Git, bo jest to podstawowe narzędzie każdego programisty. System kontroli wersji pozwala śledzić historię zmian, współpracować w zespole i bezpiecznie eksperymentować z kodem na osobnych gałęziach.
+
+## Cel nauki
+
+- Opanowanie podstawowych komend Git (init, add, commit, push, merge)
+- Zrozumienie pracy na branchach
+- Nauka publikowania projektów na GitHub
+
