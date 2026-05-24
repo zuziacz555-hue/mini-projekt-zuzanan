@@ -87,3 +87,31 @@
 .summary-bar strong {
   font-size: 1.2rem;
 }
+
+/* Link w karcie autora */
+.card a {
+  color: #2d6a4f;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.card a:hover {
+  color: #1a3d2e;
+}
+
+/* Animacja wejścia kart */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeIn 0.35s ease both;
+}
